@@ -1,13 +1,16 @@
+import React from 'react';
+import Chatbot from './Chatbot';
+import './App.css';  // Import the CSS file
 
-import './App.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="App">
+      <h1>ITSM Chatbot Helper</h1>
+      <Chatbot />
     </div>
-     
   );
-}
+};
 
 export default App;
